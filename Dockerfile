@@ -1,4 +1,4 @@
-FROM node:15
+FROM node:16.11.1
 WORKDIR /app
 COPY --chown=node:node package.json .
 RUN npm install
